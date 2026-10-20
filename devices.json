@@ -1,0 +1,72 @@
+{
+  "timeout_seconds": 1.5,
+  "settings": {
+    "port": 5000,
+    "open_mode": "window",
+    "refresh_seconds": 5,
+    "allow_network": true
+  },
+  "types": [
+    {
+      "id": "computer",
+      "name": "Computer",
+      "icon": "computer",
+      "ports": [
+        445,
+        3389,
+        139,
+        135,
+        22,
+        80
+      ]
+    },
+    {
+      "id": "phone",
+      "name": "Phone",
+      "icon": "phone",
+      "ports": [
+        80,
+        443,
+        5060
+      ]
+    },
+    {
+      "id": "printer",
+      "name": "Printer",
+      "icon": "printer",
+      "ports": [
+        9100,
+        631,
+        515,
+        80
+      ]
+    },
+    {
+      "id": "receipt_printer",
+      "name": "Receipt Printer",
+      "icon": "receipt",
+      "ports": [
+        9100,
+        631,
+        515,
+        80
+      ]
+    },
+    {
+      "id": "other",
+      "name": "Other",
+      "icon": "device",
+      "ports": [
+        80,
+        443,
+        22
+      ]
+    }
+  ],
+  "branches": [
+    "Main Office"
+  ],
+  "devices": [{
+    }
+  ]
+}
